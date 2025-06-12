@@ -1,17 +1,19 @@
 import React from 'react';
 
-const StatCards = () => {
-  const stats = [
-    { label: 'Users', value: '1,205' },
-    { label: 'Revenue', value: '$12,340' },
-  ];
+const stats = [
+  { label: 'Total Students', value: '356' },
+  { label: 'Average Attendance', value: '92%' },
+  { label: 'Top Performer Avg Grade', value: '96%' },
+  { label: 'Disciplinary Cases', value: '5' },
+];
 
+const StatCards = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-      {stats.map((stat, index) => (
-        <div key={index} className="bg-white p-6 rounded-xl shadow text-center">
-          <h4 className="text-sm text-gray-500">{stat.label}</h4>
-          <p className="text-2xl font-bold">{stat.value}</p>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 my-6">
+      {stats.map((stat, i) => (
+        <div key={i} className="bg-maroon text-white p-6 rounded-xl shadow hover:bg-maroon-light transition">
+          <p className="text-sm">{stat.label}</p>
+          <h2 className="text-2xl font-bold">{stat.value}</h2>
         </div>
       ))}
     </div>

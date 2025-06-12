@@ -1,29 +1,21 @@
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
-import {
-  Chart as ChartJS,
-  BarElement,
-  CategoryScale,
-  LinearScale,
-} from 'chart.js';
-
-ChartJS.register(BarElement, CategoryScale, LinearScale);
 
 const BarChartCard = () => {
   const data = {
-    labels: ['Jan', 'Feb', 'Mar', 'Apr'],
+    labels: ['Math', 'Science', 'English', 'PE'],
     datasets: [
       {
-        label: 'Orders',
-        data: [120, 190, 300, 500],
-        backgroundColor: '#60a5fa',
+        label: 'Average Grade (%)',
+        data: [88, 91, 86, 95],
+        backgroundColor: '#800000',
       },
     ],
   };
 
   return (
-    <div className="bg-white rounded-xl shadow p-6">
-      <h3 className="text-lg font-bold mb-4">Orders Overview</h3>
+    <div className="bg-white p-6 rounded-xl shadow">
+      <h3 className="text-lg font-semibold mb-4">Performance by Subject</h3>
       <Bar data={data} />
     </div>
   );

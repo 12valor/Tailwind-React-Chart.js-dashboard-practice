@@ -2,15 +2,17 @@ import React from 'react';
 
 const Sidebar = () => {
   return (
-    <aside className="w-64 h-screen bg-gray-800 text-white p-4">
-      <h1 className="text-2xl font-bold mb-6">Dashboard</h1>
-      <ul className="space-y-4">
-        <li className="hover:text-gray-300">Home</li>
-        <li className="hover:text-gray-300">Reports</li>
-        <li className="hover:text-gray-300">Analytics</li>
-        <li className="hover:text-gray-300">Settings</li>
-      </ul>
-    </aside>
+    <div className="bg-maroon text-white w-64 min-h-screen p-6 shadow-lg">
+      <h2 className="text-2xl font-bold mb-6">Student Dashboard</h2>
+      <nav>
+        <ul className="space-y-4">
+          <li className="hover:text-maroon-light cursor-pointer">Overview</li>
+          <li className="hover:text-maroon-light cursor-pointer">Attendance</li>
+          <li className="hover:text-maroon-light cursor-pointer">Performance</li>
+          <li className="hover:text-maroon-light cursor-pointer">Behavior</li>
+        </ul>
+      </nav>
+    </div>
   );
 };
 

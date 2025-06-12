@@ -11,7 +11,7 @@ const StatCards = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 my-6">
       {stats.map((stat, i) => (
-        <div key={i} className="bg-maroon text-white p-6 rounded-xl shadow hover:bg-maroon-light transition">
+        <div key={i} className="bg-white text-maroon p-6 rounded-xl shadow hover:bg-maroon-light hover:text-white transition">
           <p className="text-sm">{stat.label}</p>
           <h2 className="text-2xl font-bold">{stat.value}</h2>
         </div>

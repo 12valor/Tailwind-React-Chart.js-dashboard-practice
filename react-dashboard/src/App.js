@@ -5,6 +5,8 @@ import ChartCard from './components/ChartCard';
 import StatCards from './components/StatCards';
 import FilterDropdown from './components/FilterDropdown';
 import BarChartCard from './components/BarChartCard';
+import './chartSetup';
+
 
 function App() {
   const [filter, setFilter] = useState("7d");

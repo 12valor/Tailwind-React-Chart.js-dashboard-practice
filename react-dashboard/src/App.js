@@ -5,8 +5,8 @@ import ChartCard from './components/ChartCard';
 import StatCards from './components/StatCards';
 import FilterDropdown from './components/FilterDropdown';
 import BarChartCard from './components/BarChartCard';
+import WeeklyReportButton from './components/WeeklyReportButton';
 import './chartSetup';
-
 
 function App() {
   const [filter, setFilter] = useState("7d");
@@ -27,6 +27,7 @@ function App() {
             <ChartCard />
             <BarChartCard />
           </div>
+          <WeeklyReportButton />
         </main>
       </div>
     </div>

@@ -13,7 +13,6 @@ function App() {
 
   const handleFilterChange = (e) => {
     setFilter(e.target.value);
-    // You can update your charts based on this filter later
   };
 
   return (

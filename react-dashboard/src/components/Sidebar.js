@@ -7,9 +7,9 @@ const Sidebar = () => {
       <nav>
         <ul className="space-y-4">
           <li className="hover:text-maroon-light cursor-pointer">Overview</li>
-          <li className="hover:text-maroon-light cursor-pointer">Attendance</li>
-          <li className="hover:text-maroon-light cursor-pointer">Performance</li>
-          <li className="hover:text-maroon-light cursor-pointer">Behavior</li>
+          <li className="hover:text-maroon-light cursor-pointer">Products</li>
+          <li className="hover:text-maroon-light cursor-pointer">Orders</li>
+          <li className="hover:text-maroon-light cursor-pointer">Cashier</li>
         </ul>
       </nav>
     </div>

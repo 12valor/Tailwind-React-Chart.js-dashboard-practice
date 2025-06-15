@@ -7,8 +7,8 @@ const ChartCard = () => {
     datasets: [
       {
         label: 'Attendance Rate (%)',
-        data: [95, 90, 92, 94],
-        fill: false,
+        data: [95, 90, 92, 94, 93, 67, 45, 92],
+        fill: true,
         backgroundColor: '#b91c1c',
         borderColor: '#b91c1c',
       },

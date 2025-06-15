@@ -20,7 +20,6 @@ function App() {
     <div className="flex h-screen bg-gray-100">
       <Sidebar />
       <div className="flex-1 flex flex-col overflow-y-auto">
-        <Header />
         <main className="p-6">
           <FilterDropdown onChange={handleFilterChange} />
           <StatCards />

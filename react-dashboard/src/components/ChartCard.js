@@ -9,8 +9,8 @@ const ChartCard = () => {
         label: 'Attendance Rate (%)',
         data: [95, 90, 92, 94],
         fill: false,
-        backgroundColor: '#800000',
-        borderColor: '#800000',
+        backgroundColor: '#b91c1c',
+        borderColor: '#b91c1c',
       },
     ],
   };

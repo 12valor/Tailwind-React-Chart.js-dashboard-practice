@@ -8,7 +8,7 @@ const BarChartCard = () => {
       {
         label: 'Average Grade (%)',
         data: [88, 91, 86, 95],
-        backgroundColor: '#800000',
+        backgroundColor: '#b91c1c',
       },
     ],
   };
